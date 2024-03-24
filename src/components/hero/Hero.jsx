@@ -1,28 +1,49 @@
+import Image from "next/image";
 
 
 const Hero = () => {
   return (
-    <header className="bg-white dark:bg-gray-900">
-   
-
-    <div className="container px-6 py-16 mx-auto">
+    <header className="bg-white ">
+      <div className="container px-6 py-16 mx-auto">
         <div className="items-center lg:flex">
-            <div className="w-full lg:w-1/2">
-                <div className="lg:max-w-lg">
-                    <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Best place to choose <br> your <span className="text-blue-500 ">clothes</span></h1>
-                    
-                    <p className="mt-3 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? Reiciendis natus perspiciatis optio.</p>
-                    
-                    <button className="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Shop Now</button>
-                </div>
-            </div>
+          <div className="w-full lg:w-1/2">
+            <div className="lg:max-w-lg">
+              <h1 className="text-3xl font-semibold text-[#0e101a]  lg:text-5xl">
+                Responsible AI that ensures your writing and reputation shine
+              </h1>
 
-            <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                <img className="w-full h-full lg:max-w-3xl" src="https://merakiui.com/images/components/Catalogue-pana.svg" alt="Catalogue-pana.svg"\>
+              <p className=" text-[#0e101a] mt-10 mb-5">
+                Work with an AI writing partner that helps you find the words
+                you need⁠—⁠to write that tricky email, to get your point across,
+                to keep your work moving.
+              </p>
+
+              <div className="flex items-center">
+                <button className="w-full px-5 py-5 mt-6 text-sm  text-white  transition-colors duration-300 transform bg-[#027e6f] rounded-lg lg:w-auto ">
+                  Sign up It's free
+                </button>
+                <button className="w-full ml-3 px-5 py-5 mt-6 text-sm  text-[#0e101a] border border-[#0e101a]   transition-colors duration-300 rounded-lg lg:w-auto inline-block   ">
+                  <div className="flex items-center">
+                    <Image src="/gogle.png" alt="img" width={16} height={16} />
+                    <span className=" ml-2">Sign up with google</span>
+                  </div>
+                </button>
+              </div>
             </div>
+          </div>
+
+          <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+            <video width="640" height="360" controls>
+              <source
+                src="https://static-web.grammarly.com/1e6ajr2k4140/5EqhPyvNiIygTb5ZNekZOu/c9b6f09c33898142415eac7ed465bd7b/013124_Hero_Full_2x_NewLogo_1240x784.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
-    </div>
-</header>
+      </div>
+    </header>
   );
 };
 
