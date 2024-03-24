@@ -61,25 +61,57 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary>Work</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
+                  <ul className=" ">
+                    <div>
+                      <ul>
+                        <li className=" font-semibold ">
+                          <a href="#">By Team Size</a>
+                        </li>
+                        <li>
+                          <a href="">Enterprise</a>
+                        </li>
+                        <li>
+                          <a href="">Teams & Business</a>
+                        </li>
+                        <li>
+                          <a href="">Individuals</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul>
+                        <li className=" font-semibold ">
+                          <a href="#">By Team Function</a>
+                        </li>
+                        <li>
+                          <a href="#">Customer Support</a>
+                        </li>
+                        <li>
+                          <a href="#">Marketing</a>
+                        </li>
+                        <li>
+                          <a href="#">IT</a>
+                        </li>
+                        <li>
+                          <a href="">Sales</a>
+                        </li>
+                        <li>
+                          <a href="#">HR</a>
+                        </li>
+                      </ul>
+                    </div>
                   </ul>
                 </details>
               </li>
               <li>
                 <details>
                   <summary>Education</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
+                  <ul className="p-2 ">
+                    <li className="">
+                      <a>Students</a>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <a>Institutions</a>
                     </li>
                   </ul>
                 </details>
@@ -90,13 +122,51 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary>Resources</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
+                  <ul className="">
+                    <div>
+                      <ul>
+                        <li className=" font-semibold ">
+                          <a href="#">Learn</a>
+                        </li>
+                        <li>
+                          <a href="">Blog</a>
+                        </li>
+                        <li>
+                          <a href="">Customer Stories</a>
+                        </li>
+                        <li>
+                          <a href="">Business Events & Reports</a>
+                        </li>
+                        <li>
+                          <a href="">Education Events & Reports</a>
+                        </li>
+                        <li>
+                          <a href="">Support Center</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul className=" ">
+                        <li className=" font-semibold ">
+                          <a href="#">Tools</a>
+                        </li>
+                        <li className="">
+                          <a href="#">AI Writing Tools</a>
+                        </li>
+                        <li>
+                          <a href="#">Grammar Checker</a>
+                        </li>
+                        <li>
+                          <a href="#">Plagiarism Checker</a>
+                        </li>
+                        <li>
+                          <a href="">Paraphrasing Tool</a>
+                        </li>
+                        <li>
+                          <a href="#">HR</a>
+                        </li>
+                      </ul>
+                    </div>
                   </ul>
                 </details>
               </li>
@@ -264,7 +334,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-end ">
-          <button className=" hidden xl:block ml-3 p-3 hover:border hover:border-[#014c43] transition-all duration-300 rounded-lg text-[#0e101a]">
+          <button className=" hidden  xl:block 2xl:block 3xl:block ml-3 p-3 hover:border hover:border-[#014c43] transition-all duration-300 rounded-lg text-[#0e101a]">
             <a>Contact Sales</a>
           </button>
           <button className=" ml-3 p-3 hover:border hover:border-[#014c43] transition-all duration-300 rounded-lg text-[#0e101a]">
