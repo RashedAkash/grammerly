@@ -21,7 +21,7 @@ const Hero = () => {
               <div className="flex items-center">
                 <div>
                   <button className="w-full px-5 py-5 mt-6 text-sm hover:bg-[#014c43] transition-all duration-300  text-white    transform bg-[#027e6f] rounded-lg lg:w-auto ">
-                    Sign up It's free
+                    Sign up Its free
                   </button>
                 </div>
                 <div>

@@ -4,7 +4,7 @@ import { IoMenu } from "react-icons/io5";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-white ">
+      <div className="navbar border-b bg-white ">
         <div className="navbar-start flex-1">
           <div className="dropdown">
             <div
@@ -110,8 +110,8 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary>Product</summary>
-                  <ul className="border  py-7 lg:w-[650px]  2xl:w-[650px] 3xl:w-[650px]  xl:w-[650px] flex items-center  pr-10 rounded-none ">
-                    <div className=" dropdown pr-24 ">
+                  <ul className="border border-[#cdd1dc] py-12 lg:w-[650px]  2xl:w-[650px] 3xl:w-[650px]  xl:w-[650px] flex items-center  pr-10 rounded-none ">
+                    <div className=" dropdown pr-24 border-r border-[#cdd1dc] ">
                       <ul className="">
                         <li className=" font-semibold ">
                           <a href="#">Learn</a>
@@ -129,7 +129,7 @@ const Navbar = () => {
                     </div>
                     <div className=" dropdown">
                       {" "}
-                      <ul>
+                      <ul className="pl-10">
                         <li className=" font-semibold ">
                           <a href="#">Download</a>
                         </li>
@@ -150,41 +150,44 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary>Work</summary>
-                  <ul className="">
-                    <div className="flex px-7  pr-10 border border-[]">
-                      <div className="border-r-[#0e101a]">
-                        <ul>
-                          <li>
-                            <a href="#">Learn</a>
-                          </li>
-                          <li>
-                            <a href="">Features</a>
-                          </li>
-                          <li>
-                            <a href="">Product Demo</a>
-                          </li>
-                          <li>
-                            <a href="">Trust & Security</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div>
-                        {" "}
-                        <ul>
-                          <li>
-                            <a href="#">Download</a>
-                          </li>
-                          <li>
-                            <a href="">Desktop</a>
-                          </li>
-                          <li>
-                            <a href="">Mobile</a>
-                          </li>
-                          <li>
-                            <a href="">Browser</a>
-                          </li>
-                        </ul>
-                      </div>
+                  <ul className="border border-[#cdd1dc] py-12 lg:w-[650px]  2xl:w-[650px] 3xl:w-[650px]  xl:w-[650px] flex    rounded-none ">
+                    <div className=" dropdown pr-24 border-r border-[#cdd1dc] ">
+                      <ul>
+                        <li className=" font-semibold ">
+                          <a href="#">By Team Size</a>
+                        </li>
+                        <li>
+                          <a href="">Enterprise</a>
+                        </li>
+                        <li>
+                          <a href="">Teams & Business</a>
+                        </li>
+                        <li>
+                          <a href="">Individuals</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className=" dropdown ">
+                      <ul className="pl-10 ">
+                        <li className=" font-semibold ">
+                          <a href="#">By Team Function</a>
+                        </li>
+                        <li className="hover:border-[]">
+                          <a href="#">Customer Support</a>
+                        </li>
+                        <li>
+                          <a href="#">Marketing</a>
+                        </li>
+                        <li>
+                          <a href="#">IT</a>
+                        </li>
+                        <li>
+                          <a href="">Sales</a>
+                        </li>
+                        <li>
+                          <a href="#">HR</a>
+                        </li>
+                      </ul>
                     </div>
                   </ul>
                 </details>
@@ -192,12 +195,12 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary>Education</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
+                  <ul className="p-2 education border border-[#cdd1dc] lg:w-[310px]  2xl:w-[310px] 3xl:w-[310px]  xl:w-[310px] rounded-none pl-7 pr-16">
+                    <li className="mb-10">
+                      <a>Students</a>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <a>Institutions</a>
                     </li>
                   </ul>
                 </details>
@@ -205,16 +208,54 @@ const Navbar = () => {
               <li>
                 <a href="#">pricing</a>
               </li>
-              <li>
+              <li className="relative">
                 <details>
                   <summary>Resources</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
+                  <ul className="border absolute z-10 right-0  border-[#cdd1dc] py-12 lg:w-[650px]  2xl:w-[650px] 3xl:w-[650px]  xl:w-[650px] flex    rounded-none ">
+                    <div className="  dropdown pr-24 border-r border-[#cdd1dc] ">
+                      <ul>
+                        <li className=" font-semibold ">
+                          <a href="#">Learn</a>
+                        </li>
+                        <li>
+                          <a href="">Blog</a>
+                        </li>
+                        <li>
+                          <a href="">Customer Stories</a>
+                        </li>
+                        <li>
+                          <a href="">Business Events & Reports</a>
+                        </li>
+                        <li>
+                          <a href="">Education Events & Reports</a>
+                        </li>
+                        <li>
+                          <a href="">Support Center</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className=" dropdown ">
+                      <ul className=" ">
+                        <li className=" font-semibold ">
+                          <a href="#">Tools</a>
+                        </li>
+                        <li className="">
+                          <a href="#">AI Writing Tools</a>
+                        </li>
+                        <li>
+                          <a href="#">Grammar Checker</a>
+                        </li>
+                        <li>
+                          <a href="#">Plagiarism Checker</a>
+                        </li>
+                        <li>
+                          <a href="">Paraphrasing Tool</a>
+                        </li>
+                        <li>
+                          <a href="#">HR</a>
+                        </li>
+                      </ul>
+                    </div>
                   </ul>
                 </details>
               </li>
@@ -230,7 +271,7 @@ const Navbar = () => {
             <a className="">Login</a>
           </button>
           <button className=" hidden lg:block xl:block 2xl:block 3xl:block px-2 py-2 text-sm hover:bg-[#014c43] transition-all duration-300  text-white ml-2   transform bg-[#027e6f] rounded-lg  ">
-            <span className="font-semibold">Get Grammarly</span> It's free
+            <span className="font-semibold">Get Grammarly</span> Its free
           </button>
         </div>
       </div>

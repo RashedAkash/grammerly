@@ -33,13 +33,29 @@ body {
 }
 
 .dropdown ul li {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
+.dropdown ul li> a{
+ padding-right: 60px;
 
-.dropdown ul li:hover{
+}
+.dropdown ul li:hover > a{
   border:1px solid #014c43;
   transition: all;
   background-color: white;
   border-radius: 6px;
 
+}
+
+.education li:hover> a{
+  border:1px solid #014c43;
+  transition: all;
+  background-color: white;
+  border-radius: 6px;
+
+}
+.menu :where(li ul):before {
+    
+    width: 0px !important;
+    
 }
