@@ -229,7 +229,7 @@ const Navbar = () => {
           <button className=" ml-3 p-3 hover:border hover:border-[#014c43] transition-all duration-300 rounded-lg text-[#0e101a]">
             <a className="">Login</a>
           </button>
-          <button className="w-full hidden lg:block px-2 py-2 text-sm hover:bg-[#014c43] transition-all duration-300  text-white ml-2   transform bg-[#027e6f] rounded-lg lg:w-auto ">
+          <button className=" hidden lg:block xl:block 2xl:block 3xl:block px-2 py-2 text-sm hover:bg-[#014c43] transition-all duration-300  text-white ml-2   transform bg-[#027e6f] rounded-lg  ">
             <span className="font-semibold">Get Grammarly</span> It's free
           </button>
         </div>

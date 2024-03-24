@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <header className="bg-white ">
       <div className="container px-6 py-16 mx-auto">
-        <div className="items-center lg:flex">
+        <div className="items-center lg:flex xl:flex 2xl:flex 3xl:flex">
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-lg">
               <h1 className="text-3xl font-semibold text-[#0e101a]  lg:text-5xl">
