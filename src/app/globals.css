@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.dropdown ul li {
+  margin-bottom: 20px;
+}
+
+.dropdown ul li:hover{
+  border:1px solid #014c43;
+  transition: all;
+  background-color: white;
+  border-radius: 6px;
+
+}

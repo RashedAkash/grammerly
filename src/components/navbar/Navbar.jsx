@@ -7,7 +7,11 @@ const Navbar = () => {
       <div className="navbar bg-white ">
         <div className="navbar-start flex-1">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost  lg:hidden xl:hidden 2xl:hidden 3xl:hidden"
+            >
               <IoMenu className="text-black text-xl" />
             </div>
             <ul
@@ -17,14 +21,41 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary>Product</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
+                  <div>
+                    <div>
+                      <ul>
+                        <li>
+                          <a href="#">Learn</a>
+                        </li>
+                        <li>
+                          <a href="">Features</a>
+                        </li>
+                        <li>
+                          <a href="">Product Demo</a>
+                        </li>
+                        <li>
+                          <a href="">Trust & Security</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      {" "}
+                      <ul>
+                        <li>
+                          <a href="#">Download</a>
+                        </li>
+                        <li>
+                          <a href="">Desktop</a>
+                        </li>
+                        <li>
+                          <a href="">Mobile</a>
+                        </li>
+                        <li>
+                          <a href="">Browser</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </details>
               </li>
               <li>
@@ -74,31 +105,87 @@ const Navbar = () => {
           <a className="btn btn-ghost text-xl">
             <Image src="/logo.png" alt="logo" width={158} height={34} />
           </a>
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-center hidden lg:flex xl:flex 2xl:flex 3xl:flex">
             <ul className="menu text-[#0e101a] menu-horizontal Get  px-1">
               <li>
                 <details>
                   <summary>Product</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
+                  <ul className="border  py-7 lg:w-[650px]  2xl:w-[650px] 3xl:w-[650px]  xl:w-[650px] flex items-center  pr-10 rounded-none ">
+                    <div className=" dropdown pr-24 ">
+                      <ul className="">
+                        <li className=" font-semibold ">
+                          <a href="#">Learn</a>
+                        </li>
+                        <li>
+                          <a href="">Features</a>
+                        </li>
+                        <li>
+                          <a href="">Product Demo</a>
+                        </li>
+                        <li>
+                          <a href="">Trust & Security</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className=" dropdown">
+                      {" "}
+                      <ul>
+                        <li className=" font-semibold ">
+                          <a href="#">Download</a>
+                        </li>
+                        <li>
+                          <a href="">Desktop</a>
+                        </li>
+                        <li>
+                          <a href="">Mobile</a>
+                        </li>
+                        <li>
+                          <a href="">Browser</a>
+                        </li>
+                      </ul>
+                    </div>
                   </ul>
                 </details>
               </li>
               <li>
                 <details>
                   <summary>Work</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
+                  <ul className="">
+                    <div className="flex px-7  pr-10 border border-[]">
+                      <div className="border-r-[#0e101a]">
+                        <ul>
+                          <li>
+                            <a href="#">Learn</a>
+                          </li>
+                          <li>
+                            <a href="">Features</a>
+                          </li>
+                          <li>
+                            <a href="">Product Demo</a>
+                          </li>
+                          <li>
+                            <a href="">Trust & Security</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        {" "}
+                        <ul>
+                          <li>
+                            <a href="#">Download</a>
+                          </li>
+                          <li>
+                            <a href="">Desktop</a>
+                          </li>
+                          <li>
+                            <a href="">Mobile</a>
+                          </li>
+                          <li>
+                            <a href="">Browser</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </ul>
                 </details>
               </li>
